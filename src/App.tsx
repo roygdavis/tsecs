@@ -3,9 +3,7 @@ import './App.css';
 import { Canvas } from './Canvas/Canvas';
 import { ECSInputType } from './ecs/ECSInputType';
 import { ECSRenderType } from './ecs/ECSRenderType';
-import { ECSType } from './ecs/ECSType';
 import { InitHighScore, InitKeyHandler } from './Game/Init';
-import { HighScoreState } from './Game/States/HighScoreState';
 
 function App() {
   const canvasRef = React.useRef<HTMLCanvasElement>(null);
